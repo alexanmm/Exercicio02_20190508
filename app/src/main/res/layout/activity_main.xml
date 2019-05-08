@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCadastroFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:paddingTop="64dp"
+        android:text="@string/cadastroDeFuncionario"/>
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:paddingTop="64dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textViewEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endereco"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType=""/>
+
+    <TextView
+        android:id="@+id/textViewProfissao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profissao"
+        android:paddingTop="16dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/editTextProfissao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType=""/>
+
+    <TextView
+        android:id="@+id/botaoEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/enviar"
+        android:padding="16dp"
+        android:background="#536DFE"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+    
+</LinearLayout>

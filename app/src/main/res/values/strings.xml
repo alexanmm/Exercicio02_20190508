@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exercicio02_20190508</string>
+    <string name="cadastroDeFuncionario">Cadastro de Funcionário</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="endereco">Endereço</string>
+    <string name="profissao">Profissão</string>
+    <string name="enviar">Enviar</string>
+</resources>
